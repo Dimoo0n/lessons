@@ -1,8 +1,7 @@
 n = int(input("n: "))
 a = [int(input()) for i in range(n)]
 
-sum = 0
+print("Додатні елементів масиву =", end = " ")
 for i in a:
     if i > 0:
-        sum += i
-print("Сума додатніх елементів масиву =", sum)
+        print(i, end = " ")        
